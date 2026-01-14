@@ -1,0 +1,15 @@
+{
+  "name": "herblens-backend",
+  "version": "1.0.0",
+  "description": "Claude Vision API backend for HerbLens",
+  "main": "api/scan-herb-bottle.js",
+  "scripts": {
+    "dev": "node api/scan-herb-bottle.js",
+    "start": "node api/scan-herb-bottle.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "anthropic": "^0.20.0"
+  }
+}
